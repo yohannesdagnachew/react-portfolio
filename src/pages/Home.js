@@ -11,9 +11,15 @@ function Home() {
         <h2> Hi, My Name is Yohannes</h2>
         <div className="prompt">
           <p>A software developer with a passion for learning and creating.</p>
-          <LinkedInIcon />
-          <EmailIcon />
-          <GithubIcon />
+          <a href="https://www.linkedin.com/in/yohannesdagnachew/">
+            <LinkedInIcon />
+          </a>
+          <a href="yohannesdagnachew2020@gmail.com">
+            <EmailIcon />
+          </a>
+          <a href="https://github.com/yohannesdagnachew">
+            <GithubIcon />
+          </a>
         </div>
       </div>
       <div className="skills">
@@ -22,16 +28,13 @@ function Home() {
           <li className="item">
             <h2> Front-End</h2>
             <span>
-              ReactJS, JavaScript, Redux, HTML, CSS, React Native, NPM,
-              Ionic, BootStrap, MaterialUI, Yarn, TailwindCSS, StyledComponents
+              ReactJS, JavaScript, Redux, HTML, CSS, React Native, NPM, Ionic,
+              BootStrap, MaterialUI, Yarn, TailwindCSS, StyledComponents
             </span>
           </li>
           <li className="item">
             <h2>Back-End</h2>
-            <span>
-             Ruby on Rails GraphQL, Postgresql 
-              MySQL,SQL
-            </span>
+            <span>Ruby on Rails GraphQL, Postgresql MySQL,SQL</span>
           </li>
           <li className="item">
             <h2>Languages</h2>
